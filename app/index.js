@@ -86,26 +86,6 @@ const Home = () => {
             <View style={styles.header}>
                 <Text style={styles.headerText}>ELEXPLORER</Text>
             </View>
-            <View style={styles.buttonContainer}>
-                <TouchableOpacity
-                    style={styles.navButton}
-                    onPress={() => handleNavigation('PERIODIC')}
-                >
-                    <Text style={styles.navButtonText}>PERIODIC</Text>
-                </TouchableOpacity>
-                <TouchableOpacity
-                    style={styles.navButton}
-                    onPress={() => handleNavigation('TABLE')}
-                >
-                    <Text style={styles.navButtonText}>TABLE</Text>
-                </TouchableOpacity>
-                <TouchableOpacity
-                    style={styles.navButton}
-                    onPress={() => handleNavigation('ELEMENTS')}
-                >
-                    <Text style={styles.navButtonText}>ELEMENTS</Text>
-                </TouchableOpacity>
-            </View>
             <TextInput
                 style={styles.searchBar}
                 placeholder="Search elements..."
